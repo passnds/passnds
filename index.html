@@ -283,20 +283,10 @@
 										<div class="col-sm-6">
 											<div id="contact-form-section">
 												<div class="status alert alert-success" style="display: none"></div>
-												<form id="contact-form" class="contact" name="contact-form" action="http://formspree.io/waqarali_zaidi@hotmail.com">
-												<!-- <form id="contact-form" class="contact" name="contact-form" method="post" action="send-mail.php"> -->
-													<div class="form-group">
-														<input type="text" name="name" class="form-control name-field" required="required" placeholder="Your Name"></div>
-														<div class="form-group">
-															<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
-														</div>
-														<div class="form-group">
-															<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
-														</div>
-														<div class="form-group">
-															<input type="submit" class="btn btn-primary" value="Send">
-															<!-- <button type="submit" class="btn btn-primary">Send</button> -->
-														</div>
+												<form id="contact-form" class="contact" name="contact-form" action="http://formspree.io/waqarali_zaidi@hotmail.com" method="POST">
+										 			<input type="email" name="email" class="form-control mail-field" required="required" placeholder="Your Email">
+														<textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Message"></textarea>
+														<input type="submit" class="btn btn-primary" value="Send">
 													</form>
 												</div>
 											</div>
